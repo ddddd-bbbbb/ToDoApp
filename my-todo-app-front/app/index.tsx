@@ -22,7 +22,7 @@ const HomeScreen = () => {
             colors={['#F4EEFF', '#DCD6F7']} // 전체 배경 그라디언트
             style={styles.container}
         >
-            <Text style={styles.title}>Welcome!</Text>
+            <Text style={styles.title}>Welcome to my app!</Text>
             <Text style={styles.subtitle}>당신의 할 일을 계획하고 관리하세요.</Text>
             <View style={styles.buttonContainer}>
                 <TouchableOpacity style={styles.loginButton} onPress={handleLogin}>
